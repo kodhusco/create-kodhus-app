@@ -1,0 +1,16 @@
+{
+  "name": "create-kodhus-app",
+  "version": "1.1.9",
+  "description": "Generates a kodhus skeleton app",
+  "main": "index.js",
+  "repository": "https://github.com/kodhusco/create-kodhus-app.git",
+  "author": "Kodhus",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "create-kodhus-app": "./src/run.sh"
+  },
+  "scripts": {
+    "create-kodhus-app": "node src/run.js"
+  }
+}
