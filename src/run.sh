@@ -3,7 +3,7 @@ git clone https://github.com/kodhusco/kodhus-ui.git "$1"
 cd "$1"
 rm -rf .git*
 git init &> /dev/null
-cat <<EOT >> greetings.txt
+cat <<EOT >> .gitignore
 node_modules/
 dist/
 .DS_Store
